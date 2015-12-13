@@ -1,0 +1,151 @@
+@media (max-width: 530px) {
+  .row, .slider-row, .task-row {
+    font-size: 1rem; } }
+@media (min-width: 531px) {
+  .row, .slider-row, .task-row {
+    font-size: 1.2rem; } }
+@media (min-width: 768px) {
+  .row, .slider-row, .task-row {
+    font-size: 1.6rem; } }
+@media (min-width: 992px) {
+  .row, .slider-row, .task-row {
+    font-size: 2rem; } }
+#main-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh; }
+
+.container-fluid {
+  height: 52vh;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  background-color: white; }
+
+.form {
+  position: absolute;
+  width: 80%;
+  background-color: white;
+  margin: 0 10% 0 10%;
+  top: 12vh; }
+
+.form-section-bottom {
+  border: solid black 4px;
+  padding: 10px;
+  height: 60vh;
+  background-color: white; }
+
+.comments {
+  text-align: center; }
+
+.event-form {
+  text-align: center;
+  width: 50%;
+  display: inline-block; }
+
+.row, .slider-row, .task-row {
+  height: 25%;
+  text-align: center; }
+
+div .col-xs-1 {
+  height: 100%;
+  width: 14.28571%;
+  padding: 3px; }
+
+div .col-xs-6 {
+  height: 80vh; }
+
+.black-box, .box, .grey-box, .shadedBox, .red-box, .task-text-box {
+  height: 100%;
+  border: solid black 2px; }
+
+.box {
+  box-shadow: 2px 2px 2px #787878; }
+
+div .col-xs-12 {
+  height: 100%;
+  padding: 3px; }
+
+.heading {
+  font-size: 2.5vw;
+  padding: 0px;
+  margin: 0px;
+  line-height: 10vh;
+  text-align: center;
+  display: inline-block; }
+
+.grey-box {
+  border: solid #f0f0f0 2px;
+  color: white; }
+
+.shadedBox {
+  background-color: #d2dcff;
+  box-shadow: 2px 2px 2px #787878; }
+
+.red-box {
+  border: solid red 2px; }
+
+.form-section-top {
+  border: solid black 4px;
+  padding: 10px;
+  text-align: center; }
+
+.preview-box {
+  text-align: center;
+  margin: 2vh 0px;
+  margin-top: 2vh;
+  margin-right: 0px;
+  margin-bottom: 2vh;
+  margin-left: 0px;
+  font-size: 4vh; }
+
+.button {
+  width: 15vw;
+  margin: 5vh 5vh 0vh;
+  margin-top: 5vh;
+  margin-right: 5vh;
+  margin-bottom: 0vh;
+  margin-left: 5vh;
+  height: 8vh; }
+
+.map-button {
+  position: absolute;
+  top: 1vh;
+  right: 15vw;
+  width: 15vw;
+  height: 8vh;
+  line-height: 4vh;
+  margin: 1vh 5vh; }
+
+.map-div {
+  height: 30vh; }
+
+.slider-row {
+  height: 15vh;
+  line-height: 4vh;
+  margin-top: 4vh;
+  font-size: 5vh;
+  margin-bottom: -1vh; }
+
+.calendar-button {
+  width: 15vw;
+  height: 6vh;
+  line-height: 3vh;
+  margin-bottom: 0.5vh; }
+
+.eventsMap {
+  height: 70vh; }
+
+.task-row {
+  text-align: center;
+  height: 25%;
+  line-height: 40px; }
+
+.task-text-box {
+  margin: 0px;
+  height: 95%;
+  line-height: 17.5vh; }
+
+/*# sourceMappingURL=styles.css.map */
