@@ -1,11 +1,11 @@
 var Model = (function initModel() {
   var daysInMonth = getDaysInMonth(month, year);
-  var month = 12;
-  var year = 2015;
+  var today = new Date();
+  var month = today.getMonth() + 1;
+  var year = today.getFullYear();
   var DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
   var dateArray = getDateArray (month, year);
   var monthsArray = convertMonthNumberToString(month);
-  var today = new Date();
   var day = today.getDate();
   var firstOfMonth = new Date("'" + month + " " + "1 " + " " + year + "'").getDay();
   var daysToPrepend = setPrependNumberForDateArray();
